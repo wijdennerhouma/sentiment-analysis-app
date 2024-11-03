@@ -10,7 +10,7 @@ Ce projet consiste en une application d'analyse de sentiments dédiée à l'extr
 - **Visualisation des résultats** : Fournit des graphiques et des statistiques pour illustrer la répartition des sentiments dans les données analysées.
 - **Prédiction des sentiments** : Permet d'entrer de nouveaux commentaires pour prédire le sentiment associé, facilitant ainsi une évaluation rapide de la satisfaction client.
 ## Utilisation
-Pour exécuter le modèle d'analyse des sentiments, ouvrez le notebook Jupyter notebooks/sentiment_analysis.ipynb. Suivez les instructions fournies dans le notebook pour charger les données, entraîner le modèle, et effectuer des prédictions sur de nouveaux textes. Assurez-vous que le jeu de données est accessible dans le dossier data/ pour un bon fonctionnement.
+Pour exécuter le modèle d'analyse des sentiments, ouvrez le notebook sentiment_analysis.ipynb. Suivez les instructions fournies dans le notebook pour charger les données, entraîner le modèle, et effectuer des prédictions sur de nouveaux textes. Assurez-vous que le jeu de données est accessible dans le dossier data/ pour un bon fonctionnement.
 
 ## Exemples de Données
 Le jeu de données utilisé pour entraîner le modèle est disponible dans le dossier data/. Il comprend les colonnes suivantes :
