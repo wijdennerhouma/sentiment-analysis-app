@@ -12,6 +12,24 @@ Ce projet consiste en une application d'analyse de sentiments dédiée à l'extr
 
 ## Installation
 Pour installer les dépendances nécessaires au bon fonctionnement de l'application, assurez-vous d'avoir Python installé sur votre machine. Ensuite, exécutez la commande suivante dans votre terminal :
-
 ```bash
 pip install -r requirements.txt
+
+Cette commande installera toutes les bibliothèques nécessaires, notamment pandas, numpy, scikit-learn, nltk, matplotlib, et seaborn.
+
+Utilisation
+Pour exécuter le modèle d'analyse des sentiments, ouvrez le notebook Jupyter notebooks/sentiment_analysis.ipynb. Suivez les instructions fournies à l'intérieur du notebook pour charger les données, entraîner le modèle, et effectuer des prédictions sur de nouveaux textes. Assurez-vous que le dataset est accessible dans le dossier data/ pour un bon fonctionnement.
+
+Exemples de Données
+Le jeu de données utilisé pour entraîner le modèle est disponible dans le dossier data/. Il contient des colonnes telles que :
+
+textID : Un identifiant unique pour chaque commentaire.
+text : Le texte du commentaire à analyser.
+selected_text : Le texte sélectionné pour l'analyse des sentiments.
+sentiment : L'étiquette de sentiment associée (positif, négatif, neutre).
+Time of Tweet, Age of User, Country, Population -2020, Land Area (Km²), Density (P/Km²) : Données contextuelles qui peuvent être utilisées pour des analyses supplémentaires.
+Références
+Documentation scikit-learn : Une ressource précieuse pour comprendre les algorithmes de machine learning utilisés dans ce projet.
+Documentation NLTK : Guide complet sur le Natural Language Toolkit, utilisé pour le prétraitement et l'analyse des données textuelles.
+Kaggle Dataset : Lien vers le site où vous avez obtenu le dataset utilisé pour l'analyse.
+Contribuer
